@@ -74,8 +74,8 @@ function FileSearchCell({ toolCall }: ToolCallProps) {
       <BookOpenText size={16} />
       <div className="text-sm font-medium mb-0.5">
         {toolCall.status === "completed"
-          ? "Searched files"
-          : "Searching files..."}
+          ? "Searched menu"
+          : "Searching menu..."}
       </div>
     </div>
   );
